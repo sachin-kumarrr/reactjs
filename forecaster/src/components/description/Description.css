@@ -1,0 +1,75 @@
+.description {
+  padding-left: 220px;
+  margin-top: 30px;
+}
+.weather-state-name {
+  font-size: 15px;
+}
+
+.weather-state-date {
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.weather-temperature-description {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.weather-temperature {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.weather-temperature-about {
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.weather-name {
+  display: flex;
+  align-items: center;
+  margin-right: 170px;
+}
+
+.weather-name-info {
+  font-weight: 400;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.weather-information {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.weather-information-details {
+  margin-left: 2px;
+}
+
+.weather-information-name {
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.weather-information-info {
+  font-weight: 500;
+}
+
+@media (max-width:420px){
+    .description {
+        padding-left: 20px;
+    }
+    .weather-name {
+        margin-right: 20px;
+    }
+    .weather-information{
+        grid-template-columns: repeat(2,1fr);        
+        row-gap: 10px;        
+    }
+}
