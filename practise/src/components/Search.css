@@ -1,0 +1,16 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.searchData {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.searchData > li {
+    margin-top: 5px;
+}

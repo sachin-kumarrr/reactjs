@@ -1,0 +1,59 @@
+.profile {
+    display: flex;
+    align-items: center;          
+    margin-top: 2rem;
+}
+
+.profile_pic > img {
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-left: 11rem;
+    
+}
+
+.profile_info {
+    padding-left: 4rem;
+}
+
+.profile_user_name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.profile_user_about {
+    display: flex;    
+    margin-top: 0.5rem;       
+    align-items: center;    
+   
+}
+
+.profile_user_followers {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.profile_name{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+@media only screen and (max-width:400px){
+    .profile {
+        flex-direction: column;
+        justify-content: center;         
+        margin-top: .5rem;     
+    }
+    .profile_pic > img {
+        object-fit: contain;
+        border-radius: 50%;
+        padding: 1rem;
+        margin-left: 0;              
+    }
+
+    .profile_info{              
+       padding-right: 2.2rem;
+    }
+}

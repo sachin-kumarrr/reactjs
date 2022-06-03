@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem;  
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+}
+
+.header_logo > img {
+  object-fit: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 10em;
+}
+
+.header_profile_pic > img {
+    object-fit: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 10rem;
+}
+
+@media only screen and (max-width:400px){
+    .header_logo > img {        
+        margin-left: 1.625rem;
+      }
+      .header_profile_pic > img {
+
+        margin-right: 1.625rem;
+    }
+}
